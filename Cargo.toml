@@ -1,0 +1,20 @@
+[package]
+name = "actix-jwt-cookies"
+version = "0.1.0"
+authors = ["Necdet Arda Etiman"]
+edition = "2021"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Necoo33/actix-jwt-cookies"
+categories = ["web-programming", "authentication", "cryptography", "network-programming"]
+keywords = ["actix-web", "jwt", "cookie", "jwt-cookie", "authentication"]
+description = "Store your data in encrypted cookies and get it elegantly in actix-web framework."
+
+[dependencies]
+actix-web = "4.9.0"
+jsonwebtoken = "9.3.0"
+serde = "1.0.183"
+time = { version = "0.3.29", features = ["serde"] }
+
+[lib]
+name = "actix_jc"
